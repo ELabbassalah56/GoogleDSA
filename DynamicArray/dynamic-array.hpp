@@ -1,5 +1,6 @@
 #ifndef _DYNAMIC_ARRAY_HPP_
 #define _DYNAMIC_ARRAY_HPP_
+#include "dynamic-array.hpp.in"
 #include <iostream>
 
 template <typename T>

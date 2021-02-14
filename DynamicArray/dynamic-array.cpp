@@ -115,3 +115,16 @@ template <typename T>
 dynamicArray<T>::~dynamicArray()
 {
 }
+
+
+int main(int argc, char const *argv[])
+{
+    if (argc < 2) {
+    // report version
+    std::cout << argv[0] << " Version " << DynamicArray_VERSION_MAJOR << "."
+              << DynamicArray_VERSION_MINOR << std::endl;
+    std::cout << "Usage: " << argv[0] << " number" << std::endl;
+    return 1;
+  }
+  return 0;
+}
