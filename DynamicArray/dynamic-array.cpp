@@ -101,7 +101,7 @@ void dynamicArray<T>::clear(){
 template <typename T>
 dynamicArray<T>::dynamicArray(/* args */)
 {
-        return this(16);
+        this(16);
 }
 template <typename T>
 dynamicArray<T>::dynamicArray(int capacity)

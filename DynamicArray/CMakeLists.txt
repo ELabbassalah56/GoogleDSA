@@ -1,7 +1,7 @@
 #add miniumum version
-cmake_minimum_required(VERSION 1.6.0)
+cmake_minimum_required(VERSION 3.5)
 #add project name and Version
-project(DynamicArray VERSION 0.0)
+project(DynamicArray VERSION 0.1)
 # add the executable
 add_executable(DynamicArray dynamic-array.cpp)
 # specify the C++ standard
